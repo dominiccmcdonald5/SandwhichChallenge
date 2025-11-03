@@ -178,6 +178,9 @@ function App() {
     >
       <div className="sandwich-builder">
         <h1>🥪 Sandwich Builder</h1>
+        <p className="helper-message">
+          💡 Tip: Add at least 2 pieces of bread to complete your sandwich!
+        </p>
         
         <div className="main-content">
           <div className="sandwich-display">
