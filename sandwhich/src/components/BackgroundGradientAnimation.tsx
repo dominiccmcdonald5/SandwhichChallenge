@@ -65,13 +65,8 @@ export const BackgroundGradientAnimation = ({
   }, []);
 
   const containerStyle: React.CSSProperties = {
-    height: "100vh",
-    width: "100vw",
-    position: "fixed",
-    overflow: "hidden",
-    top: 0,
-    left: 0,
-    zIndex: 1,
+    width: "100%",
+    position: "relative",
     background: `linear-gradient(40deg, ${gradientBackgroundStart}, ${gradientBackgroundEnd})`,
   };
 
@@ -124,9 +119,7 @@ export const BackgroundGradientAnimation = ({
       </div>
       <div style={{ 
         position: "relative", 
-        zIndex: 10, 
-        height: "100vh",
-        overflow: "hidden"
+        zIndex: 10
       }}>
         {children}
       </div>
