@@ -65,6 +65,7 @@ export const BackgroundGradientAnimation = ({
   }, []);
 
   const containerStyle: React.CSSProperties = {
+    minHeight: "100vh",
     width: "100%",
     position: "relative",
     background: `linear-gradient(40deg, ${gradientBackgroundStart}, ${gradientBackgroundEnd})`,
